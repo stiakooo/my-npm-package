@@ -1,5 +1,5 @@
 {
-  "name": "my-npm-package",
+  "name": "@stoyan.yankov/my-npm-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,12 @@
   "license": "ISC",
   "files": [
     "index.js"
-  ]
+  ],
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^20.1.3"
+  }
 }
